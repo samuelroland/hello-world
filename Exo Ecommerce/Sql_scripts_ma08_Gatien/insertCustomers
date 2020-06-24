@@ -1,0 +1,21 @@
+CREATE TABLE Customers(
+id INT PRIMARY KEY,
+Number INT NOT NULL,
+Name VARCHAR(45) NOT NULL,
+Firstname VARCHAR(45) NOT NULL,
+Inscription VARCHAR(45) NOT NULL,
+Categories_id INT FOREIGN KEY REFERENCES Categories(id) NOT NULL
+);
+INSERT INTO Customers (id, Number, Name, Firstname, Inscription, Categories_id)
+
+VALUES (1, 123, "ROCHE", "Stéphane", "05.03.1958", 1),
+VALUES (2, 35, "Gaillard", "Alice", "09.06.1955", 2),
+VALUES (3, 356, "Le Gall", "Marc", "05.03.1952", 3),
+VALUES (4, 67, "Gerard", "Jean", "05.03.1951", 2),
+VALUES (5, 13, "Collet", "Philippe", "05.03.1949", 3),
+VALUES (6, 07, "Herve", "Christelle", "05.03.1975", 3),
+VALUES (7, 255, "Roy", "Sandra", "05.03.1982", 1),
+VALUES (8, 567, "Vidal", "André", "05.03.1974", 3),
+VALUES (9, 67, "Picard", "Raphaël", "05.03.2000", 1),
+VALUES (10, 34, "Perrot", "Zoe", "05.03.1970", 2);
+

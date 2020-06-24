@@ -1,0 +1,16 @@
+CREATE TABLE benefit(
+id INT PRIMARY KEY NOT NULL,
+Customers_id INT FOREIGN KEY REFERENCES Customers(id) NOT NULL,
+Promotions_id INT FOREIGN KEY REFERENCES Promotions(id) NOT NULL
+);
+INSERT INTO Benefit (id, Customers_id, Promotions_id)
+VALUES (1, 4, 3),
+VALUES (2, 5, 4),
+VALUES (3, 9, 1),
+VALUES (4, 1, 2),
+VALUES (5, 10, 3),
+VALUES (6, 6, 4),
+VALUES (7, 2, 1),
+VALUES (8, 7, 2),
+VALUES (9, 3, 3),
+VALUES (10, 8, 2);

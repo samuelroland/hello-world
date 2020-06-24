@@ -1,0 +1,7 @@
+problème:
+Fairphone aimerait pouvoir vendre ses téléphones et autres produits pour le monde entier. Elle aimerait aussi pouvoir écrire des articles sur l'entreprise et pouvoir écrire des newsletters à ses clients.
+Jusqu'a maintenant elle a fonctionné avec des fichiers excels mais ca devenait vite très pénible. Elle recoit régulièrement des appels des clients qui demandaient si leurs commandes arrivaient bientot ou pour modifier des adresses. Elle a une fois perdu tous ces fichiers excel et de nombreuses commandes avec.
+
+
+ objectif du projet:
+ Pour simplifier, accélerer la gestion des commandes, des clients, des produits et de tout le reste, elle a donc besoin d'un service de vente en ligne. Pour commencer elle a besoin d'une base de données pour stocker toutes les informations de ce site d'e-commerce.

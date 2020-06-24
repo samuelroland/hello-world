@@ -1,0 +1,5 @@
+CREATE TABLE benefit(
+id INT PRIMARY KEY NOT NULL,
+Customers_id INT FOREIGN KEY REFERENCES Customers(id) NOT NULL,
+Promotions_id INT FOREIGN KEY REFERENCES Promotions(id) NOT NULL
+);

@@ -1,0 +1,19 @@
+CREATE TABLE Orders(
+id INT NOT NULL PRIMARY KEY,
+Number INT NOT NULL,
+Date DATE NOT NULL,
+States_id INT FOREIGN KEY REFERENCES States(id) NOT NULL,
+Customers_id INT FOREIGN KEY REFERENCES Customers(id) NOT NULL
+);
+INSERT INTO Orders (id, Number, Date, States_id, Customers_id)
+
+VALUES (1, 24, "16.08.2001", 2, 7),
+VALUES (2, 64, "27.06.2003", 4, 3),
+VALUES (3, 4674, "01.09.2005", 3, 2),
+VALUES (4, 356, "13.03.2006", 1, 10),
+VALUES (5, 252, "31.01.2002", 3, 5),
+VALUES (6, 241, "08.11.2004", 4, 1),
+VALUES (7, 4234, "19.07.2000", 2, 8),
+VALUES (8, 644, "18.12.2009", 4, 4),
+VALUES (9, 575, "05.05.2007", 1, 9),
+VALUES (10, 699, "22.10.2004", 2, 6);

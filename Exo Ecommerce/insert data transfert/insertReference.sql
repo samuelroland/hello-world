@@ -1,0 +1,30 @@
+CREATE TABLE reference(
+id INT PRIMARY KEY NOT NULL,
+Products_id INT FOREIGN KEY REFERENCES Products(id) NOT NULL,
+Orders_id INT FOREIGN KEY REFERENCES Orders(id) NOT NULL
+);
+
+INSERT INTO reference (id, Products_id, Orders_id)
+VALUES (1, 5, 1),
+VALUES (2, 5, 2),
+VALUES (3, 5, 3),
+VALUES (4, 5, 4),
+VALUES (5, 5, 5),
+VALUES (6, 5, 6),
+VALUES (7, 5, 7),
+VALUES (8, 5, 8),
+VALUES (9, 5, 9),
+VALUES (10, 1, 10),
+VALUES (11, 7, 11),
+VALUES (12, 8, 12),
+VALUES (13, 9, 13),
+VALUES (14, 10, 14),
+VALUES (15, 10, 15),
+VALUES (16, 5, 16),
+VALUES (17, 7, 17),
+VALUES (18, 5, 18),
+VALUES (19, 10, 19),
+VALUES (20, 3, 20),
+VALUES (21, 6, 20),
+VALUES (22, 9, 20),
+VALUES (23, 5, 20);

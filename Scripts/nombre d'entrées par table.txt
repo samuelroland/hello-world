@@ -1,0 +1,22 @@
+by samuel
+customers
+100
+articles
+30
+shops
+10
+descriptions
+32 = 22 components (4 à 25) et 3 fairphones (1 à 3) et 7 promotions (26 à 32)
+promotions
+7
+by gatien
+orders
+90
+components
+22 différents et total = 250
+benefit
+150
+emails
+290
+fairphones
+3 différent et total = 300

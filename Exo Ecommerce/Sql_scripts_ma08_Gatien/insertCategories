@@ -1,0 +1,8 @@
+CREATE TABLE Categories(
+id INT NOT NULL PRIMARY KEY,
+Name VARCHAR(45) NOT NULL
+);
+INSERT INTO Categories(id, name)
+VALUES (1, "Standard"),
+VALUES (2, "Gold"),
+VALUES (3, "Platine");
